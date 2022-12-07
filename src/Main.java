@@ -2,6 +2,7 @@ public class Main {
     private static final Employee[] EMPLOYEES = new Employee[10];
 
     public static void main(String[] args) {
+        System.out.println("Курсовая работа 1");
         EMPLOYEES[0] = new Employee("Иванов Сергей Петрович", 2, 55000);
         EMPLOYEES[1] = new Employee("Петров Иван Сергеевич", 3, 54000);
         EMPLOYEES[2] = new Employee("Сергеев Петр Иванович", 4, 56000);
