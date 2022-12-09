@@ -3,11 +3,11 @@ public class Employee {
     private final int id;
     private final String fullName;
     private int departament;
-    private int salary;
+    private double salary;
 
         public Employee (String fullName,
                          int departament,
-                         int salary) {
+                         double salary) {
             this.id = idGenerator++;
             this.fullName = fullName;
             this.departament = departament;
@@ -18,7 +18,7 @@ public class Employee {
         this.departament = departament;
     }
 
-    public void setSalary(int salary) {
+    public void setSalary(double salary) {
         this.salary = salary;
     }
 
@@ -30,7 +30,7 @@ public class Employee {
         return departament;
     }
 
-    public int getSalary() {
+    public double getSalary() {
         return salary;
     }
     @Override
