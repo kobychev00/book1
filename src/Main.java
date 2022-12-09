@@ -192,7 +192,7 @@ public class Main {
         double averageSalary = findAverageSalary();
         System.out.printf("Средняя зарплата %.2f%n", averageSalary);
         printFullNameInfo();
-        System.out.println("уровень 2");
+        System.out.println("2ой уровень");
         int departament = 5;
         indexSalaries();
         Employee employeeWithMinSalaryIn5thDep = findEmployeeWithMinSalaryByDep();
